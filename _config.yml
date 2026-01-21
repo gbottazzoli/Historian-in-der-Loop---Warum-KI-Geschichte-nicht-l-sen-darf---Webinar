@@ -1,0 +1,8 @@
+# GitHub Pages configuration
+title: "Historian in the Loop"
+description: "Webinar — 21. Januar 2026"
+theme: jekyll-theme-time-machine
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false

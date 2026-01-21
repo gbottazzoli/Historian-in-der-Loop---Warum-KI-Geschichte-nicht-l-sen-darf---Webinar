@@ -1,0 +1,43 @@
+/* Minimal custom styles */
+
+/* Images pleine largeur */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid #ddd;
+  padding-left: 1rem;
+  color: #555;
+}
+
+/* Tables avec bordures */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+table, th, td {
+  border: 1px solid #555;
+}
+
+th, td {
+  padding: 0.6rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
